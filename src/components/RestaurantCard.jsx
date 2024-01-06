@@ -1,11 +1,12 @@
 import React from "react";
+import { IMG_CDN_URL } from "../utils/constants";
 
 export const RestaurantCard = (props) => {
   const { name, cuisine, costForTwo, rating, imageId, eta } = props;
   return (
     <div className="restaurant-card">
       <img
-        src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508/${imageId}`}
+        src={`${IMG_CDN_URL}/${imageId}`}
         alt="Swiggy food"
         className="restaurant-logo"
       />

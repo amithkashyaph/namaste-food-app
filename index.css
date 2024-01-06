@@ -21,21 +21,22 @@
   cursor: pointer;
 }
 
-.search {
+.top-rated-btn {
   padding: 10px;
+  margin-top: 10px;
+  width: 25%;
+  cursor: pointer;
 }
 
 .restaurant-container {
-  width: 100%;
   display: flex;
-  justify-content: start;
   flex-wrap: wrap;
-  margin: 0 auto;
+  gap: 16px;
 }
 
 .restaurant-card {
   width: 200px;
-  padding: 4px;
+  padding: 8px;
   margin: 5px;
   border-radius: 16px;
   background-color: azure;
