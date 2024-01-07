@@ -18,7 +18,8 @@
   "homepage": "https://github.com/amithkashyaph/namaste-food-app#readme",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.1"
   },
   "devDependencies": {
     "parcel": "^2.10.3",
